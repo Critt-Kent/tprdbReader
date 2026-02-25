@@ -27,7 +27,7 @@ def readTPRDBtables(studies, ext, user = "TPRDB", path = "/data/critt/tprdb/", v
 
 
 
-def readTPRDBtable_GCP(studies, ext, user="TPRDB", verbose=0):
+def readTPRDBtables_GCP(studies, ext, user="TPRDB", verbose=0):
     """
     Reads files from a Google Cloud Storage bucket that match the specified extension,
     constructing the path as:
